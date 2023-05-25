@@ -248,12 +248,12 @@ All Arduino® boards have a built-in bootloader which allows flashing the board 
 
 | Pin | **Function** | **Type** | **Description**                    |
 |-----|--------------|----------|------------------------------------|
-| 1   | LPIO0_EXT    | Digital  | Low Power IO Pin 0                 |
-| 2   | NC           | N/A      | N/A                                |
+| 1   | D0/LPIO0_EXT    | Digital  | Low Power IO Pin 0                 |
+| 2   | A2/D18       | Analog/Digital      | N/A                                |
 | 3   | CS           | Digital  | SPI Cable Select                   |
 | 4   | COPI         | Digital  | SPI Controller Out / Peripheral In |
 | 5   | CIPO         | Digital  | SPI Controller In / Peripheral Out |
-| 6   | SCLK         | Digital  | SPI Clock                          |
+| 6   | SCK         | Digital  | SPI Clock                          |
 | 7   | ADC2         | Analog   | Analog Input 2                     |
 | 8   | ADC1         | Analog   | Analog Input 1                     |
 
