@@ -411,7 +411,7 @@ dd if=/dev/zero of=/dev/mmcblk2boot1 bs=1024 count=4096 && sync
 
 #### Flashing the Portenta X8 Using `uuu` Command
 
-Now that we have the Portenta X8 in programming mode, we need to flash the OS image. Within the previously described OS image file structure, you need to navigate to `mfgtool-files-portenta-x8` directory. Inside the directory, you will find the `uuu` executable and its components. Here, you will open a terminal and run the following command:
+Now that we have the Portenta X8 in programming mode, we need to flash the OS image. Within the previously described OS image file structure, you need to navigate to `mfgtool-files-portenta-x8` directory. Inside the directory, you will find the `uuu` executable and its components. Remember to uncompress mfgtool-files-portenta-x8.tar.gz and lmp-partner-arduino-image-portenta-x8.wic.gz. Make sure the .wic file is in the unzipped folder in the main directory. Now you can open a terminal and run the following command:
 
 ```
 uuu full_image.uuu
