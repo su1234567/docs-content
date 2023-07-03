@@ -126,7 +126,7 @@ We will go through the lines needed to create a Sketch to read the battery value
 **4.** We will now create a variable to store the maximum source voltage `max_Source_voltage` as well as the upper (`batteryFullVoltage`) and lower (`batteryEmptyVoltage`) values for the battery. We will also define the battery capacity as `batteryCapacity` so as to determine the charging current. Since we are using a 750 mAh battery in this example, we will set the value to `0.750`.
 
 ```arduino
-  int max_Source_voltage;
+  float max_Source_voltage;
 
   float batteryFullVoltage = 4.2;
   float batteryEmptyVoltage = 3.3;
